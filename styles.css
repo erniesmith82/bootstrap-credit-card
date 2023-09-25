@@ -14,9 +14,13 @@ body{
     justify-content: center;
     color: rgb(151, 50, 67);
     box-shadow: 1px 1px 10px 1px rgb(141, 66, 79);
-    animation: animate 7.5s linear infinite;
+    
 } 
  
+.glow{
+    animation: animate 1.5s linear infinite;
+
+}
 @keyframes animate{
   0%{
     opacity: 0;
