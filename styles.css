@@ -4,6 +4,8 @@
 body{
     margin: auto;
 }
+
+
 #header{
     width: auto;
     margin: auto;
@@ -33,8 +35,8 @@ body{
   }
 }
 img {
-    transition: transform .7s ease-in-out;
+    transition: transform .1s ease-in-out;
   }
   img:hover {
-    transform: rotate(360deg);
+    transform: scale(1.5);
   }
